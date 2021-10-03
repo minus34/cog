@@ -28,7 +28,8 @@ conda config --env --set channel_priority strict
 conda activate cog
 
 # install packages
-conda install -y -c conda-forge rasterio[s3] rio-cogeo requests boto3
+conda install -y -c conda-forge rasterio[s3] rio-cogeo jupyter requests
+#conda install -y -c conda-forge boto3  # optional if you want to save COGs to AWS S3
 
 
 # --------------------------
