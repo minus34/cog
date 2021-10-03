@@ -10,6 +10,10 @@ echo "-------------------------------------------------------------------------"
 echo "Creating new Conda Environment 'cog'"
 echo "-------------------------------------------------------------------------"
 
+# make sure we're in the Base Conda environment
+conda deactivate
+conda activate base
+
 # update Conda platform
 conda update -y conda
 
@@ -19,12 +23,7 @@ conda env remove --name cog
 # Create Conda environment
 conda create -y -n cog python=${PYTHON_VERSION}
 
-# activate and setup env
-conda activate cog
-conda config --env --add channels conda-forge
-conda config --env --set channel_priority strict
-
-# reactivate for env vars to take effect
+# activate environment
 conda activate cog
 
 # install packages
