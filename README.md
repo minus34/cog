@@ -28,7 +28,7 @@ source ${HOME}/.bashrc
 
 ## 2. Build the Environment
 
-Run `01_create_conda_env.sh` (MacOS/Linux) or `01_create_conda_env.bat` (Windows)
+Run `01_setup_conda_env.sh` (MacOS/Linux) or `01_setup_conda_env.bat` (Windows)
 
 ## 3. Run the Notebooks
 
