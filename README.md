@@ -34,5 +34,5 @@ Run `01_setup_conda_env.sh` (MacOS/Linux) or `01_setup_conda_env.bat` (Windows)
 
 1. In your command line terminal: go to the folder this code is in & run the command `jupyter notebook` to start the server
 2. Your browser should then load the Jupyter main page showing the notebooks 
-3. To convert an ASCII grid file of elevation data to a COG, click on `02_convert_to_cog.ipynb`
+3. To convert an ASCII grid file of elevation data to a COG, click on `02_convert_asc_to_cog.ipynb`
 4. To use the converted COG to determine the average elevation of several throusand properties, click on `03_get_elevation.ipynb`
