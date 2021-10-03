@@ -27,7 +27,7 @@ conda create -y -n cog python=${PYTHON_VERSION}
 conda activate cog
 
 # install packages
-conda install -y -c conda-forge rasterio[s3] rio-cogeo jupyter requests
+conda install -y -c conda-forge rasterio[s3] rio-cogeo fiona jupyter requests
 #conda install -y -c conda-forge boto3  # optional if you want to save COGs to AWS S3
 
 
