@@ -36,3 +36,9 @@ Run `01_setup_conda_env.sh` (MacOS/Linux) or `01_setup_conda_env.bat` (Windows)
 2. Your browser should then load the Jupyter main page showing the notebooks 
 3. To convert an ASCII grid file of elevation data to a COG, click on `02_convert_asc_to_cog.ipynb`
 4. To use the converted COG to determine the average elevation of several throusand properties, click on `03_get_elevation.ipynb`
+
+## Data Licenses
+
+Incorporates or developed using:
+- Elevation data © NSW DCS Spatial Services, licensed under CC-BY. Terms of use are [here](https://portal.spatial.nsw.gov.au/portal/home/item.html?id=437c0697e6524d8ebf10ad0d915bc219)
+- G-NAF © [Geoscape Australia](https://geoscape.com.au/legal/data-copyright-and-disclaimer/) licensed by the Commonwealth of Australia under the [Open Geo-coded National Address File (G-NAF) End User Licence Agreement](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/distribution/dist-dga-09f74802-08b1-4214-a6ea-3591b2753d30/details?q=).
